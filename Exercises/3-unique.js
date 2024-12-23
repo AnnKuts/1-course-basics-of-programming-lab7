@@ -7,7 +7,6 @@
 const unique1 = (array) => {
   return [...new Set(array)];
 };
-
 const unique = (array) => {
  const result = [];
  for (const item of array) {
